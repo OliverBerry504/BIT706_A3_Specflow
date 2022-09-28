@@ -16,8 +16,8 @@ Scenario Outline: Transfer from Everyday to Investment
 	Examples:
 	| numAmount | resultFrom | resultToo | boolIsStaff |
 	| 50        | 50         | 150       | false     |
-	| 150       | 100        | 100       | false     |
-	| 150       | 100        | 100       | true      |
+	| 150       | 90         | 100       | false     |
+	| 150       | 95         | 100       | true      |
 
 Scenario: Transfer from Everyday to Omni
 	Given the Everyday account has a balance of 100
@@ -30,8 +30,8 @@ Scenario: Transfer from Everyday to Omni
 	Examples:
 	| numAmount | resultFrom | resultToo | boolIsStaff |
 	| 50        | 50         | 150       | false     |
-	| 150       | 100        | 100       | false     |
-	| 150       | 100        | 100       | true      |
+	| 150       | 90         | 100       | false     |
+	| 150       | 95         | 100       | true      |
 
 Scenario: Transfer from Investment to Everyday
 	Given the Investment account has a balance of 100

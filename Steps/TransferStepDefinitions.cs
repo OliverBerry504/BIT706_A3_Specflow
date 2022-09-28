@@ -14,8 +14,7 @@ namespace BIT706_A3.Steps
         private Investment _investment = new Investment(customer);
         private Omni _omni = new Omni(customer);
         private AccController _accCtrl = new AccController();
-        private double _result;
-        Exception _error;
+        Exception? _error;
 
         [Given(@"the Everyday account has a balance of (.*)")]
         public void GivenTheEverydayAccHasABalanceOf(double amount)

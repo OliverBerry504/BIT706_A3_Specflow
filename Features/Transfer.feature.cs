@@ -171,13 +171,13 @@ this.TransferFromEverydayToInvestment("50", "50", "150", "false", ((string[])(nu
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Transfers")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 1")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:numAmount", "150")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "100")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "90")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultToo", "100")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:boolIsStaff", "false")]
         public virtual void TransferFromEverydayToInvestment_Variant1()
         {
 #line 8
-this.TransferFromEverydayToInvestment("150", "100", "100", "false", ((string[])(null)));
+this.TransferFromEverydayToInvestment("150", "90", "100", "false", ((string[])(null)));
 #line hidden
         }
         
@@ -187,13 +187,13 @@ this.TransferFromEverydayToInvestment("150", "100", "100", "false", ((string[])(
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Transfers")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 2")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:numAmount", "150")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "100")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "95")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultToo", "100")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:boolIsStaff", "true")]
         public virtual void TransferFromEverydayToInvestment_Variant2()
         {
 #line 8
-this.TransferFromEverydayToInvestment("150", "100", "100", "true", ((string[])(null)));
+this.TransferFromEverydayToInvestment("150", "95", "100", "true", ((string[])(null)));
 #line hidden
         }
         
@@ -268,13 +268,13 @@ this.TransferFromEverydayToOmni("50", "50", "150", "false", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Transfers")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 1")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:numAmount", "150")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "100")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "90")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultToo", "100")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:boolIsStaff", "false")]
         public virtual void TransferFromEverydayToOmni_Variant1()
         {
 #line 22
-this.TransferFromEverydayToOmni("150", "100", "100", "false", ((string[])(null)));
+this.TransferFromEverydayToOmni("150", "90", "100", "false", ((string[])(null)));
 #line hidden
         }
         
@@ -283,13 +283,13 @@ this.TransferFromEverydayToOmni("150", "100", "100", "false", ((string[])(null))
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Transfers")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 2")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:numAmount", "150")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "100")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultFrom", "95")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:resultToo", "100")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:boolIsStaff", "true")]
         public virtual void TransferFromEverydayToOmni_Variant2()
         {
 #line 22
-this.TransferFromEverydayToOmni("150", "100", "100", "true", ((string[])(null)));
+this.TransferFromEverydayToOmni("150", "95", "100", "true", ((string[])(null)));
 #line hidden
         }
         
