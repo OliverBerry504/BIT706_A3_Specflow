@@ -12,7 +12,7 @@ Scenario Outline: Transfer from Everyday to Investment
 	And the amount transfered between everyday and investment is <numAmount>
 	Then the Everyday account will have a balance of <resultFrom>
 	Then the Investment account will have a balance of <resultToo>
-
+	 
 	Examples:
 	| numAmount | resultFrom | resultToo | boolIsStaff |
 	| 50        | 50         | 150       | false     |
